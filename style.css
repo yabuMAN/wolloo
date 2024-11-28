@@ -164,3 +164,61 @@ button:hover{
     text-transform: uppercase
      
 }
+@media screen and (max-width:600px)
+{
+   .content h1{
+        font-size:36px;
+        line-height: 40px;
+        
+    }
+    .logo{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    position: relative;
+    top: 28%;
+    transform: translateY(-50%);
+    align-items: center;
+    border-radius:50%;
+    border:10px ;
+
+    }
+    .loginn{
+        width: 100%;
+        position: absolute;
+        top: 57%;
+        transform: translateY(-50%);
+        text-align: center;
+
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    width: 100px;
+    border: 2px solid #44c5b8;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+    border-radius: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar{
+    width:85% ;
+    margin: -28px;
+    padding: px;
+    display:flex;
+    justify-content:space-around;
+}
+    
+
+}
