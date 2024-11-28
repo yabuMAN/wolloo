@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.navbar{
+    width:85% ;
+    margin: -26px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.li h4{
+    color: #a09c9c;
+}
+.li li h1{
+    font-size: 70px;
+    margin-top:80 px;
+    color: #8f8f8f;;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+
+}
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(29, 23, 23, 0.75)),url(kocha.jpg);
+    background-size:cover;
+    
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    align-items: center;
+    border-radius:50%;
+    border:10px ;
+
+}
+.back{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(29, 23, 23, 0.75)),url(kocha.jpg);
+    background-size:contain;
+    
+    height: 200vh;
+    background-position:center;
+   
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #000000;
+    
+
+}
+.content h1{
+    font-size: 70px;
+    margin-top:80 px;
+    color: #8f8f8f;
+
+}
+.content h2{
+    margin: 30px auto;
+    font-weight: 100;
+    line-height: 30px;
+    color: #3b5754;
+
+
+}
+
+
+button{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   top: 58%;
+   width: 100px;
+   border: 2px solid #44c5b8;
+   background: transparent;
+   color:#fff;
+   cursor: pointer;
+ overflow: hidden;
+ padding: 10px;
+   border-radius: 30px;
+
+}
+.loginn{
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    text-align: center;
+   
+
+}
+span{background:#009688 ;
+height: 100%;
+width: 0%;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom: 0;
+ 
+z-index: -1;
+transition: 0.5s;
+
+
+
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border:none;
+}
+.about{
+    position: absolute;
+    top: 90%;
+    border: 1px solid #44c5b8;
+    background: transparent;
+    color: #e8c5c5;
+    cursor: pointer;
+  overflow: hidden;
+  padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase
+     
+}
